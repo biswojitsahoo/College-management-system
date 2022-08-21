@@ -15,40 +15,6 @@
     margin-bottom: 15px;
     line-height: 80px;
   }
-  /*.comment-box input {
-    width: 100%;
-    height: 50px;
-    padding: 0 20px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #86b0b6;
-  }
-  .comment-box textarea {
-    width: 100%;
-    height: 150px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #86b0b6;
-  }
-  .comment-box input:focus {
-    border: 1px solid rgba(8, 8, 8, 0.842);
-    outline: 0;
-  }
-  .comment-box textarea:focus {
-    border: 1px solid rgba(8, 8, 8, 0.842);
-    outline: 0;
-  }
-  .comment-box button {
-    border: 0;
-    padding: 10px 30px;
-    background-color: #86b0b6;
-    font-size: 18px;
-    border-radius: 5px;
-    color: #fff;
-  }
-  .comment-box button:hover {
-    background-color: #718a8e;
-  }*/
   form{
     width: 500px;
     border: 2px solid rgb(30, 255, 0);
