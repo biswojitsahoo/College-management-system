@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.comment-box {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 501px;
+  }
+  .comment-box h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 15px;
+    line-height: 80px;
+  }
+  /*.comment-box input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #86b0b6;
+  }
+  .comment-box textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #86b0b6;
+  }
+  .comment-box input:focus {
+    border: 1px solid rgba(8, 8, 8, 0.842);
+    outline: 0;
+  }
+  .comment-box textarea:focus {
+    border: 1px solid rgba(8, 8, 8, 0.842);
+    outline: 0;
+  }
+  .comment-box button {
+    border: 0;
+    padding: 10px 30px;
+    background-color: #86b0b6;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .comment-box button:hover {
+    background-color: #718a8e;
+  }*/
+  form{
+    width: 500px;
+    border: 2px solid rgb(30, 255, 0);
+    padding: 30px;
+    background: rgba(2, 0, 0, 0.498);
+    align-items: center;
+    border-radius: 15px;
+}
+input{
+    width: 500px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+textarea{
+  width: 500px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 2px solid #ff7200;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+  .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .logo {
+    width: 90px;
+    cursor: pointer;
+    display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  }
